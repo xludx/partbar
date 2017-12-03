@@ -5,7 +5,7 @@ Displays Particl & Bitcoin price on your Macbook's touchbar.
 [Download Page](https://github.com/xludx/partbar/releases)
 
 
-![alt text](https://raw.githubusercontent.com/xludx/partbar/doc/partbar.png)
+![alt text](https://raw.githubusercontent.com/xludx/partbar/master/doc/partbar.png)
 
 
 ## Prerequisites
