@@ -1,5 +1,5 @@
 {
-  "name": "partbar",
+  "name": "PartBar",
   "version": "1.0.0",
   "description": "Displays Particl price on your Macbook's touchbar.",
   "main": "main.js",
