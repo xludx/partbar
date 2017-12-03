@@ -1,10 +1,10 @@
-# CoinWatch Touchbar
+# Particl Touchbar
 
-[![Join the chat at https://gitter.im/coinwatch/Lobby](https://badges.gitter.im/coinwatch/Lobby.svg)](https://gitter.im/coinwatch/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Displays Particl & Bitcoin price on your Macbook's touchbar.
 
-Check Bitcoin, Ethereum, Ripple & other cryptocurrencies anytime via your touchbar.
+[Download Page](https://github.com/xludx/partbar/releases)
 
-[Download Page](https://github.com/andrewrd/coinwatch/releases)
+Based on: 
 
 ## Prerequisites
 
@@ -14,39 +14,20 @@ Check Bitcoin, Ethereum, Ripple & other cryptocurrencies anytime via your touchb
 
 Users have the option to define a custom configuration for this app.
 
-Simply place a json file named `.coinwatch.json` in your home directory that has
+Simply place a json file named `.partbar.json` in your home directory that has
 the following structure.
 
 ```json
 {
-  "refresh": 150000,
+  "refresh": 300000,
   "coins": [
     "bitcoin",
-    "ethereum",
-    "ripple"
-  ]
+    "particl"
+  ],
+  "currency": "$"
 }
 ```
 
-From here you can modify the refresh rate and the coins that are displayed in
-your touch bar.
+## Thanks
 
-## How to Install
-
-    npm install
-
-## How to Run
-
-    npm start
-
-## Support Development
-
-Bitcoin - 1JVSv65ZdEf6NQUHdGw7EafQwPnVUuM2PK
-
-Ethereum - 0x007856928853Fb57f5d5dE3F695E003E11D7B716
-
-Ripple - rM4pGL1G7WBAUBLsB9SPUrjdPXpz8nT8be
-
-## Contributors
-andrewrd, andrewrd.com
-Noam Eppel, CleanForest.co
+Particl Touchbar is based on [coinwatch](https://github.com/andrewrd/coinwatch/).

@@ -1,0 +1,11 @@
+{
+  "refresh": 300000,
+  "coins": [
+    "bitcoin",
+    "particl",
+    "neo",
+    "ada"
+  ],
+  "currency": "$"
+}
+
