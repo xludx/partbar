@@ -30,6 +30,8 @@ the following structure.
 }
 ```
 
+The app shows prices in EUR by default, if you wish to see prices in USD, you need to add the config-file.
+
 ## Thanks
 
 Particl Touchbar is based on [coinwatch](https://github.com/andrewrd/coinwatch/).
